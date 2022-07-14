@@ -12,9 +12,9 @@ function Footer() {
             <div className='contactUs'>
                 <h2>Contáctanos</h2>
                 <div className='contacUs-icons'>
-                    <p><i><FontAwesomeIcon icon={faEnvelope}/> </i>correo@correo.com</p>
+                    <p><a href='mailto:correo@correo.com'><i><FontAwesomeIcon icon={faEnvelope}/> </i>correo@correo.com</a></p>
                     <a href=''><i><FontAwesomeIcon icon={faInstagram}/></i> Fundación Soy luz de Vida</a>
-                    <a href=''><i><FontAwesomeIcon icon={faFacebook}/></i> Fundación Soy luz de Vida</a>
+                    <a href='https://www.facebook.com/fundacionsoyluzdevida'><i><FontAwesomeIcon icon={faFacebook}/></i> Fundación Soy luz de Vida</a>
                     <a href=''><i><FontAwesomeIcon icon={faYoutube}/></i> Fundación Soy luz de Vida</a>
                 </div>
             </div>
@@ -33,7 +33,7 @@ function Footer() {
                 <div className='rights-link'>
                     <p>Fundación sin ánimo de lucro</p>
 
-                    <Link to="/rights-reserved">2022 © Derechos Reservados • Desarrollado por estudiantes Kuepa</Link>
+                    <Link to="/rights-reserved">2022 © Derechos Reservados • Desarrollado por estudiantes de Kuepa</Link>
                 </div>
             </div>
         </div>

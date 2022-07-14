@@ -7,9 +7,9 @@
     padding:0rem 3rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-start;
-    height: 43rem;
+    height: 45rem;
     background-color: var(--dark-blue);
 
 }
@@ -19,7 +19,6 @@
     font-weight: 100;
 }
 .contactUs, .sources, .rights{
-    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -54,7 +53,16 @@
     .footer{
         flex-direction: row-reverse;
         justify-content: space-between;
-        height: 20rem;
+        height: 18rem;
         padding:0rem 8rem 0rem 3rem;
+    }
+    .rights{
+        max-width: 35%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .rights{
+        padding-left: 3rem;
     }
 }
