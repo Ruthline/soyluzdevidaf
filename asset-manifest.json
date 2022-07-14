@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/soyluzdevidaf/static/css/main.669390f0.css",
+    "main.css": "/soyluzdevidaf/static/css/main.d91bc228.css",
     "main.js": "/soyluzdevidaf/static/js/main.bc416cd1.js",
     "static/media/logo.svg": "/soyluzdevidaf/static/media/logo.7221aa86123e409c93950b4da976038e.svg",
     "static/media/left-arrow.svg": "/soyluzdevidaf/static/media/left-arrow.da21225bcf530088451874c9e21c215a.svg",
     "static/media/right-arrow.svg": "/soyluzdevidaf/static/media/right-arrow.d19ce8f87764b5901ed2ca6f0ff22d03.svg",
     "index.html": "/soyluzdevidaf/index.html",
-    "main.669390f0.css.map": "/soyluzdevidaf/static/css/main.669390f0.css.map",
+    "main.d91bc228.css.map": "/soyluzdevidaf/static/css/main.d91bc228.css.map",
     "main.bc416cd1.js.map": "/soyluzdevidaf/static/js/main.bc416cd1.js.map"
   },
   "entrypoints": [
-    "static/css/main.669390f0.css",
+    "static/css/main.d91bc228.css",
     "static/js/main.bc416cd1.js"
   ]
 }
