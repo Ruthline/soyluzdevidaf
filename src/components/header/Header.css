@@ -1,0 +1,231 @@
+:root{
+    --dark-blue:rgb(64,68,95);
+    --light-blue:rgb(55, 206, 199);
+    --yellow:rgb(245, 218, 69);
+    --green:rgb(160,220,98);
+    --black:rgb(44,37, 37);
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dropbtn {
+    display: flex;
+    justify-content:center;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropbtn:hover{
+    color: var(yellow);}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: var(--dark-blue);
+    min-width: 180px;
+    height: 155px;
+    padding-top: 1rem;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 1rem 0.5rem;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    color: var(--yellow);
+    border-bottom:3px solid var(--yellow);
+    
+    }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+
+nav{
+    background: var(--dark-blue);
+    height: 100px;
+    width: 100%;
+    padding: 0.8rem 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-family: 'Cabin', sans-serif;
+}
+
+.logo{
+    height: 68px;
+    transition-duration:500ms;
+}
+
+nav ul{
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: auto;
+    text-align: center;
+    color:var(--yellow);
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav ul a{
+    text-decoration: none;
+}
+.item:hover{
+    color: var(--yellow);
+}
+.item{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0 1rem;
+    transition-duration: 500ms ;
+}
+
+
+li.active, li:hover{
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+.logo:hover{
+    transform: scale(1.01);
+}
+
+@keyframes blinker {
+50% {
+    opacity: 0;
+}
+}
+@keyframes hideShow {
+0%, 16.6%, 33.33%, 100% { width: 0; }
+16.66%, 33.3% { width: auto; }
+}
+
+
+/* MEDIAS QUERIES */
+@media (max-width: 2000px){
+    nav ul li a{
+        font-size: 16px;
+    }
+
+    nav ul li{
+        width: 80%;
+        margin: 0 5px;
+        list-style: none;
+    }
+    
+    nav ul li{
+        width: 180px;
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        padding: 7px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 1285px){
+    nav ul li{
+        width: 140px;
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 0;
+    }
+}
+
+@media (max-width: 1020px) and (min-width:300px){
+    .checkbtn{
+        display: flex;
+    }
+    .dropdown-box{
+        position: relative;
+        right: 125px;
+      }
+    nav{
+        padding: 0 30px 0 10px;
+        align-items: center;
+    }
+    .dropbtn {
+        font-size: 20px;
+    }
+    
+
+    ul{
+        position: absolute;
+        width: 100%;
+        height: calc(100% - 70px);
+        background-color: var(--dark-blue);
+        backdrop-filter: blur(5px);
+        top: 100px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 10;
+        animation: desplegar 2s 1s backwards;
+    }
+
+    @keyframes desplegar {
+        0%{
+            border-bottom-right-radius: 100%;
+        }
+        100%{
+            border-bottom-right-radius: 0%;
+        }
+    }
+
+    nav ul li{
+        border: none;
+        width: 100%;
+        margin: 30px 0;
+    }
+    nav ul li a{
+        width: 400px;
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        color: var(--yellow);
+        border-bottom: 2px solid var(--yellow);
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+
+}

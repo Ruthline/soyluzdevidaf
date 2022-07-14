@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    padding:0rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 41rem;
+    background-color: var(--dark-blue);
+
+}
+.footer h2{
+    font-family: 'Cabin', sans-serif;
+    padding: 1rem 0rem; 
+    font-weight: 100;
+}
+.contactUs, .sources, .rights{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    line-height: 30px;
+    padding: 1rem;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.rights h2{
+    border-bottom: 1px solid white;
+}
+.contactUs i {
+    text-align: center;
+    margin-right: 1rem;
+    font-size: 25px;
+}
+.contacUs-icons a, .sources-link a, .rights-link a{
+    color: white;
+    text-decoration:none;
+}
+.sources-link, .contacUs-icons, .rights-link{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width:768px) {
+    .footer{
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .footer{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        height: 20rem;
+        padding:0rem 8rem 0rem 3rem;
+    }
+}
