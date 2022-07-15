@@ -1,0 +1,51 @@
+.box-nt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-nt{
+    margin: 1rem;
+    background-color:rgba(55, 206, 198, 0.15);
+    max-width: 1100px;
+}
+.container-nt h1{
+    font-family: 'Cabin', sans-serif;
+    color: var(--dark-blue);
+    text-shadow: 1px 1px 3px white;
+    padding:2rem 0rem 1.5rem 3rem;
+}
+.container-nt p{
+    text-align: justify;
+    font-family: 'Red Hat Display', sans-serif;
+    color: black;
+    line-height: 26px;
+    padding: 0rem 3rem 1rem 3rem;
+    font-size: 17px;
+    text-shadow: 2px 2px 2px white;
+}
+.container-more{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 4rem;
+    padding-bottom: 1rem;
+}
+.more{
+    width: 140px;
+    height: 30px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    background-color: var(--dark-blue);
+    box-shadow: -1px 1px 3px var(--black);
+}
+
+.more a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    text-shadow: 2px 2px 2px var(--black);
+    letter-spacing: 2px;
+}
