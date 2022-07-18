@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 import TextHomeNT from '../../components/texthomeNT/TextHomeNT';
 import HowWeDoIT from '../../components/howWeDoIt/HowWeDoIT';
+import OurImpact from '../../components/ourImpact/OurImpact';
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
         <SliderHome/>
         <TextHomeNT/>
         <HowWeDoIT/>
+        <OurImpact/>
         <Footer/>
     </div>
   )

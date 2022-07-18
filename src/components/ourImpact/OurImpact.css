@@ -1,0 +1,93 @@
+.our-impact{
+    margin: 4rem 0rem;
+    background-image: url(../ourImpact/impact.svg);
+    background-size: 600px 630px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas:
+    "titulo"
+    "i-purple-one"
+    "i-blue-one"
+    "i-purple-two"
+    "i-blue-two" ;
+}
+.our-impact h2{
+    font-family: 'Cabin', sans-serif;
+    
+}
+.our-impact p{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 17px;
+}
+.titulo{
+    text-shadow: 2px 2px 2px white;
+    color: var(--dark-blue);
+    text-align: center;
+    padding-bottom: 3rem;
+    font-family: 'Cabin', sans-serif;
+    grid-area: titulo;
+}
+.i-purple-one, .i-blue-one, .i-purple-two, .i-blue-two{
+    height: 8rem;
+    border-radius: 5px;
+    padding: 2rem;
+}
+.i-purple-one{
+    grid-area: i-purple-one;
+    background-color: rgba(64,68,95, 0.9);
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 2px var(--black);
+}
+.i-blue-one{
+    grid-area: i-blue-one;
+    color: var(--dark-blue);
+    margin-bottom: 1rem;
+    background-color: rgba(55, 206, 199 ,0.9);
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.8);
+}
+.i-purple-two{
+    grid-area: i-purple-two;
+    background-color:rgba(64,68,95, 0.9);
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 2px var(--black);
+}
+.i-blue-two{
+    grid-area: i-blue-two;
+    color: var(--dark-blue);
+    background-color: rgba(55, 206, 199 ,0.9);
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.8);
+}
+@media screen and (min-width:768px) {
+    
+    .our-impact{
+        background-size: 800px 540px;
+        padding-bottom: 5rem;
+        grid-template-areas: 
+        "titulo titulo"
+        "i-purple-one i-blue-one"
+        "i-blue-two i-purple-two";
+    }
+    .i-purple-one, .i-blue-one, .i-purple-two, .i-blue-two{
+        margin: 2rem 3rem;
+    }
+    .i-blue-one, .i-purple-two{
+        position: relative;
+        top: 40%;
+    }
+}
+@media screen and (min-width:1024px) {
+    .i-purple-one, .i-blue-one, .i-purple-two, .i-blue-two{
+        margin: 2rem 5rem;
+    }
+   .our-impact{
+    background-size: 1300px 540px;
+   }
+}
+@media screen and (min-width:1200px) {
+    .our-impact{
+        background-size: 1400px 540px;
+    }
+}
