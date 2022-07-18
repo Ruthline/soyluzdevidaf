@@ -1,0 +1,126 @@
+.how-We{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+.text-how{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    max-width: 1000px;
+}
+
+.text-how h1{
+    font-family: 'Cabin', sans-serif;
+    color: var(--dark-blue);
+    padding-bottom:1.5rem ;
+}
+.text-how p{
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.programs{
+    padding: 1rem;
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.programs h2{
+    font-family: 'Cabin', sans-serif;
+    color: var(--dark-blue);
+    text-shadow: 2px 2px 2px white;
+}
+.program{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(245, 218, 69, 0.7), rgba(245, 218, 69,0.7)), url(../howWeDoIt/asist.jpg);
+    background-size: cover;
+    height: 6rem;
+    margin-bottom: 0.5rem;
+}
+.program-two{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(55, 206, 199, 0.7), rgb(55, 206, 199,0.7)), url(../howWeDoIt/prevencion.jpg);
+    background-size: cover;
+    height: 6rem;
+    margin-bottom: 0.5rem;
+    
+}
+.program-three{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(160,220,98,0.7), rgba(160,220,98,0.7)), url(../howWeDoIt/promocion.jpg);
+    background-size: cover;
+    height: 6rem;
+}
+
+@media screen and (min-width:768px){
+    
+}
+@media screen and (min-width:1024px){
+    .programs{
+        flex-direction: row;
+    }
+    .program, .program-two, .program-three{
+        cursor: pointer;
+        margin: 1rem 0.3rem;
+        height: 18rem;
+        align-items: flex-end;
+    }
+    .program h2{
+        background-color: var(--yellow);
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+    }
+    .program-two h2{
+        background-color: var(--light-blue);
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+    }
+    .program-three h2{
+        background-color: var(--green);
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+    }
+    .program{
+        background-image: url(../howWeDoIt/asist.jpg);
+    }
+    .program:hover, .program-two:hover, .program-three:hover{
+        animation: 2s fadein 1;
+    }
+    
+    @keyframes fadein {
+        0%{
+            opacity:1;
+        }
+        50%{
+            opacity: 0.85;
+        }
+        80%{
+            opacity:1;
+        }
+    }
+    .program-two{
+        background-image: url(../howWeDoIt/prevencion.jpg);
+    }
+    .program-three{
+        background-image: url(../howWeDoIt/promocion.jpg);
+    }
+
+}
