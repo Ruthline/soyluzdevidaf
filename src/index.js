@@ -14,7 +14,7 @@ root.render(
   <Routes>
     <Route path='/soyluzdevidaf' element={<Home/>}></Route>
     <Route path='/home' element={<Navigate replace to={"/soyluzdevidaf"}/>}></Route>
-    <Route path='/projects' element={<WorkUs/>}></Route>
+    <Route path='/workus' element={<WorkUs/>}></Route>
     <Route path='/projects' element={<PFA/>}></Route>
     <Route path='/us' element={<Us/>}></Route>
     <Route path='/contact' element={<ContactUs/>}></Route>
