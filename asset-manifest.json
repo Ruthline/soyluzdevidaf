@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/soyluzdevidaf/static/css/main.33b360e7.css",
-    "main.js": "/soyluzdevidaf/static/js/main.c5f3b80a.js",
+    "main.css": "/soyluzdevidaf/static/css/main.fd604d17.css",
+    "main.js": "/soyluzdevidaf/static/js/main.214cf4e4.js",
     "static/media/asist.jpg": "/soyluzdevidaf/static/media/asist.c0f837846dd23bf7954f.jpg",
     "static/media/promocion.jpg": "/soyluzdevidaf/static/media/promocion.8d5c60f200734b0b28c9.jpg",
     "static/media/prevencion.jpg": "/soyluzdevidaf/static/media/prevencion.de54cc776ce3855e1b89.jpg",
+    "static/media/galery1.jpeg": "/soyluzdevidaf/static/media/galery1.51f9c7cb23fb5f99226f.jpeg",
+    "static/media/galery2.jpeg": "/soyluzdevidaf/static/media/galery2.4ee95c0ea0dc15ced1c3.jpeg",
+    "static/media/galery5.jpeg": "/soyluzdevidaf/static/media/galery5.0626336fab82e506d190.jpeg",
+    "static/media/galery6.jpeg": "/soyluzdevidaf/static/media/galery6.7532c4689bff348ed797.jpeg",
+    "static/media/galery3.jpeg": "/soyluzdevidaf/static/media/galery3.5a5069ddbd133896d03c.jpeg",
+    "static/media/galery4.jpeg": "/soyluzdevidaf/static/media/galery4.28d37b11237542a06701.jpeg",
     "static/media/impact.svg": "/soyluzdevidaf/static/media/impact.f00a96d20474d017358a.svg",
     "static/media/logo.svg": "/soyluzdevidaf/static/media/logo.7221aa86123e409c93950b4da976038e.svg",
     "static/media/left-arrow.svg": "/soyluzdevidaf/static/media/left-arrow.da21225bcf530088451874c9e21c215a.svg",
     "static/media/right-arrow.svg": "/soyluzdevidaf/static/media/right-arrow.d19ce8f87764b5901ed2ca6f0ff22d03.svg",
     "index.html": "/soyluzdevidaf/index.html",
-    "main.33b360e7.css.map": "/soyluzdevidaf/static/css/main.33b360e7.css.map",
-    "main.c5f3b80a.js.map": "/soyluzdevidaf/static/js/main.c5f3b80a.js.map"
+    "main.fd604d17.css.map": "/soyluzdevidaf/static/css/main.fd604d17.css.map",
+    "main.214cf4e4.js.map": "/soyluzdevidaf/static/js/main.214cf4e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.33b360e7.css",
-    "static/js/main.c5f3b80a.js"
+    "static/css/main.fd604d17.css",
+    "static/js/main.214cf4e4.js"
   ]
 }
