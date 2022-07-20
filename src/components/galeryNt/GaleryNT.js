@@ -28,7 +28,7 @@ function GaleryNT(props){
             </section>
 
             <article className='light-box' id="image1">
-                <a href='#image6' className='next'><FontAwesomeIcon icon={faArrowLeft}/></a>
+                <a href='#image6' className='next-g'><FontAwesomeIcon icon={faArrowLeft}/></a>
                 <div className='more-info-galery'>
                 <img src={Galery1} alt=''>
                 </img>
@@ -36,77 +36,77 @@ function GaleryNT(props){
                 <p>
                 <h3>titulo</h3><br></br>
                     titulo</p></div>
-                <a href='#image2' className='next'><FontAwesomeIcon icon={faArrowRight}/></a>
+                <a href='#image2' className='next-g'><FontAwesomeIcon icon={faArrowRight}/></a>
                 <a href='#' className='close'>
                 <FontAwesomeIcon icon={faXmark}/>
                 </a>
             </article>
 
             <article className='light-box' id="image2">
-                <a href='#image1' className='next'><FontAwesomeIcon icon={faArrowLeft}/></a>
+                <a href='#image1' className='next-g'><FontAwesomeIcon icon={faArrowLeft}/></a>
                 <div className='more-info-galery'>
                 <img src={Galery2} alt=''>
                 </img>
                 <p>
                 <h3>titulo</h3><br></br>
                     titulo</p></div>
-                <a href='#image3' className='next'><FontAwesomeIcon icon={faArrowRight}/></a>
+                <a href='#image3' className='next-g'><FontAwesomeIcon icon={faArrowRight}/></a>
                 <a href='#' className='close'>
                 <FontAwesomeIcon icon={faXmark}/>
                 </a>
             </article>
 
             <article className='light-box' id="image3">
-                <a href='#image2' className='next'><FontAwesomeIcon icon={faArrowLeft}/></a>
+                <a href='#image2' className='next-g'><FontAwesomeIcon icon={faArrowLeft}/></a>
                 <div className='more-info-galery'>
                 <img src={Galery3} alt=''>
                 </img>
                 <p>
                 <h3>titulo</h3><br></br>
                     titulo</p></div>
-                <a href='#image4' className='next'><FontAwesomeIcon icon={faArrowRight}/></a>
+                <a href='#image4' className='next-g'><FontAwesomeIcon icon={faArrowRight}/></a>
                 <a href='#' className='close'>
                 <FontAwesomeIcon icon={faXmark}/>
                 </a>
             </article>
 
             <article className='light-box' id="image4">
-                <a href='#image3' className='next'><FontAwesomeIcon icon={faArrowLeft}/></a>
+                <a href='#image3' className='next-g'><FontAwesomeIcon icon={faArrowLeft}/></a>
                 <div className='more-info-galery'>
                 <img src={Galery4} alt=''>
                 </img>
                 <p>
                 <h3>titulo</h3><br></br>
                     titulo</p></div>
-                <a href='#image5' className='next'><FontAwesomeIcon icon={faArrowRight}/></a>
+                <a href='#image5' className='next-g'><FontAwesomeIcon icon={faArrowRight}/></a>
                 <a href='#' className='close'>
                 <FontAwesomeIcon icon={faXmark}/>
                 </a>
             </article>
 
             <article className='light-box' id="image5">
-                <a href='#image4' className='next'><FontAwesomeIcon icon={faArrowLeft}/></a>
+                <a href='#image4' className='next-g'><FontAwesomeIcon icon={faArrowLeft}/></a>
                 <div className='more-info-galery'>
                 <img src={Galery5} alt=''>
                 </img>
                 <p>
                 <h3>titulo</h3><br></br>
                     titulo</p></div>
-                <a href='#image6' className='next'><FontAwesomeIcon icon={faArrowRight}/></a>
+                <a href='#image6' className='next-g'><FontAwesomeIcon icon={faArrowRight}/></a>
                 <a href='#' className='close'>
                 <FontAwesomeIcon icon={faXmark}/>
                 </a>
             </article>
             
             <article className='light-box' id="image6">
-                <a href='#image5' className='next'><FontAwesomeIcon icon={faArrowLeft}/></a>
+                <a href='#image5' className='next-g'><FontAwesomeIcon icon={faArrowLeft}/></a>
                 <div className='more-info-galery'>
                 <img src={Galery6} alt=''>
                 </img>
                 <p>
                 <h3>titulo</h3><br></br>
                     titulo</p></div>
-                <a href='#image1' className='next'><FontAwesomeIcon icon={faArrowRight}/></a>
+                <a href='#image1' className='next-g'><FontAwesomeIcon icon={faArrowRight}/></a>
                 <a href='#' className='close'>
                 <FontAwesomeIcon icon={faXmark}/>
                 </a>

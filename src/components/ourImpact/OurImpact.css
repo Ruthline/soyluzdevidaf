@@ -1,7 +1,7 @@
 .our-impact{
     margin: 4rem 0rem;
     background-image: url(../ourImpact/impact.svg);
-    background-size: 600px 630px;
+    background-size: 580px 630px;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -32,6 +32,7 @@
     height: 8rem;
     border-radius: 5px;
     padding: 2rem;
+    margin:0rem 2rem;
 }
 .i-purple-one{
     grid-area: i-purple-one;
