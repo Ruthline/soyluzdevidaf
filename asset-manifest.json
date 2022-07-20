@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/soyluzdevidaf/static/css/main.fd604d17.css",
-    "main.js": "/soyluzdevidaf/static/js/main.ef95e13f.js",
+    "main.css": "/soyluzdevidaf/static/css/main.068ef366.css",
+    "main.js": "/soyluzdevidaf/static/js/main.d195156b.js",
     "static/media/asist.jpg": "/soyluzdevidaf/static/media/asist.c0f837846dd23bf7954f.jpg",
     "static/media/promocion.jpg": "/soyluzdevidaf/static/media/promocion.8d5c60f200734b0b28c9.jpg",
     "static/media/prevencion.jpg": "/soyluzdevidaf/static/media/prevencion.de54cc776ce3855e1b89.jpg",
@@ -11,16 +11,20 @@
     "static/media/galery6.jpeg": "/soyluzdevidaf/static/media/galery6.7532c4689bff348ed797.jpeg",
     "static/media/galery3.jpeg": "/soyluzdevidaf/static/media/galery3.5a5069ddbd133896d03c.jpeg",
     "static/media/galery4.jpeg": "/soyluzdevidaf/static/media/galery4.28d37b11237542a06701.jpeg",
-    "static/media/impact.svg": "/soyluzdevidaf/static/media/impact.f00a96d20474d017358a.svg",
+    "static/media/patrocinador1.png": "/soyluzdevidaf/static/media/patrocinador1.871a04c44b34c8222f38.png",
+    "static/media/patrocinador2.png": "/soyluzdevidaf/static/media/patrocinador2.bf212677009d0461a61e.png",
+    "static/media/patrocinador3.png": "/soyluzdevidaf/static/media/patrocinador3.af9712c19c1b76fd3bde.png",
+    "static/media/patrocinador4.jpg": "/soyluzdevidaf/static/media/patrocinador4.aae9e9053d91deb352c1.jpg",
+    "static/media/impact.svg": "/soyluzdevidaf/static/media/impact.7a419b639b1467758ceb.svg",
     "static/media/logo.svg": "/soyluzdevidaf/static/media/logo.7221aa86123e409c93950b4da976038e.svg",
     "static/media/left-arrow.svg": "/soyluzdevidaf/static/media/left-arrow.da21225bcf530088451874c9e21c215a.svg",
     "static/media/right-arrow.svg": "/soyluzdevidaf/static/media/right-arrow.d19ce8f87764b5901ed2ca6f0ff22d03.svg",
     "index.html": "/soyluzdevidaf/index.html",
-    "main.fd604d17.css.map": "/soyluzdevidaf/static/css/main.fd604d17.css.map",
-    "main.ef95e13f.js.map": "/soyluzdevidaf/static/js/main.ef95e13f.js.map"
+    "main.068ef366.css.map": "/soyluzdevidaf/static/css/main.068ef366.css.map",
+    "main.d195156b.js.map": "/soyluzdevidaf/static/js/main.d195156b.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd604d17.css",
-    "static/js/main.ef95e13f.js"
+    "static/css/main.068ef366.css",
+    "static/js/main.d195156b.js"
   ]
 }
