@@ -1,0 +1,21 @@
+.introduction-ppa{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction-ppa h1{
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    color: var(--dark-blue);
+    padding-bottom: 1rem;
+}
+.introduction-ppa p{
+    text-align: justify;
+    padding-top: 1rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 17px;
+    max-width: 1000px;
+}

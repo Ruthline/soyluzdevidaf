@@ -4,7 +4,7 @@ import {BrowserRouter,Navigate,Route, Routes} from 'react-router-dom';
 import './index.css';
 import ContactUs from './pages/contactUs/ContactUs';
 import Home from './pages/home/Home';
-import PFA from './pages/projects/pFA/PFA';
+import PPA from './pages/projects/ppa/PPA';
 import WorkUs from './pages/projects/workUs/WorkUs';
 import Us from './pages/us/Us';
 
@@ -15,7 +15,7 @@ root.render(
     <Route path='/soyluzdevidaf' element={<Home/>}></Route>
     <Route path='/home' element={<Navigate replace to={"/soyluzdevidaf"}/>}></Route>
     <Route path='/workus' element={<WorkUs/>}></Route>
-    <Route path='/projects' element={<PFA/>}></Route>
+    <Route path='/projects' element={<PPA/>}></Route>
     <Route path='/us' element={<Us/>}></Route>
     <Route path='/contact' element={<ContactUs/>}></Route>
   </Routes>
