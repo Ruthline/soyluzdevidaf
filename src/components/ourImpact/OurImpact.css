@@ -1,7 +1,7 @@
 .our-impact{
     margin: 4rem 0rem;
     background-image: url(../ourImpact/impact.svg);
-    background-size: 580px 630px;
+    background-size: 500px 636px;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -15,10 +15,6 @@
 .our-impact h2{
     font-family: 'Cabin', sans-serif;
     
-}
-.our-impact p{
-    font-family: 'Red Hat Display', sans-serif;
-    font-size: 17px;
 }
 .titulo{
     text-shadow: 2px 2px 2px white;
@@ -64,7 +60,7 @@
 @media screen and (min-width:768px) {
     
     .our-impact{
-        background-size: 800px 540px;
+        background-size: 1010px 540px;
         padding-bottom: 5rem;
         grid-template-areas: 
         "titulo titulo"

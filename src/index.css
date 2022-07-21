@@ -13,3 +13,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body h1{ 
+  font-family: 'Cabin', sans-serif;
+  color: var(--dark-blue);
+}
+
+body p{
+  font-size: 17px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+ 
+@media screen and (min-width:1024px) {
+  body p{
+    font-size: 20px;
+  }
+  
+}

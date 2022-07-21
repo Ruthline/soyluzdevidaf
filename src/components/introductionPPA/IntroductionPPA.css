@@ -14,8 +14,6 @@
 }
 .introduction-ppa p{
     text-align: justify;
-    padding-top: 1rem;
-    font-family: 'Red Hat Display', sans-serif;
-    font-size: 17px;
+    padding: 2rem;
     max-width: 1000px;
 }
