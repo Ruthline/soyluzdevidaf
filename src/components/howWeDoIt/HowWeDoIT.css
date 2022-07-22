@@ -32,6 +32,10 @@
     color: var(--dark-blue);
     text-shadow: 2px 2px 2px white;
 }
+.programs a{
+    text-decoration: none;
+    color: var(--dark-blue);
+}
 .program{
     width: 100%;
     display: flex;

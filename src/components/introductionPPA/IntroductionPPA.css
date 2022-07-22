@@ -1,5 +1,5 @@
 .introduction-ppa{
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,7 +10,7 @@
     text-align: center;
     font-family: 'Cabin', sans-serif;
     color: var(--dark-blue);
-    padding-bottom: 1rem;
+    padding: 1rem 0.35rem;
 }
 .introduction-ppa p{
     text-align: justify;
