@@ -1,0 +1,118 @@
+.colab-primary {
+    display: grid;
+    grid-template-areas: 
+        "titulo-p"
+        "titulo-second"
+        "texto-d"
+        "img-kuepa"
+        "img-citi";
+    padding: 20px;
+    background-image: url(./foto\ 1.png);
+    background-position: center center;
+    background-size: cover;
+
+}
+.titulo-p{
+    grid-area: titulo-p;
+}
+
+.texto-d{
+    grid-area: texto-d;
+}
+.imagenes{
+    display: flex;
+    justify-content: center;
+
+}
+.img-kuepa{
+    grid-area: img-kuepa;
+    margin: 1rem 2rem;
+}
+.img-citi{
+    grid-area: img-citi;
+    margin: 1rem 2rem;
+}
+
+.colab-primary h1{
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
+.colab-primary h2{
+    padding: 20px;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
+
+.colab-primary p{
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.kuepa{
+    width: 8rem;
+    height: 45px;
+    display: flex;
+}
+.citi{
+    width: 5.5rem;
+    height: 60px;
+    display: flex;
+}
+
+@media screen and (min-width:768px) {
+    .colab-primary{
+        grid-template-areas: 
+        "titulo-p titulo-p titulo-p" 
+        "titulo-second img-kuepa img-citi"
+        "texto-d img-kuepa img-citi";
+    }
+    .citi{
+        margin-top: 4rem;
+    }
+    .kuepa{
+        margin-top: 4rem;
+    }
+}
+@media screen and (min-width:768px) {
+    .colab-primary{
+        padding: 3rem;
+    }
+    .colab-primary h2{
+        text-align: center;
+    }
+    .kuepa{
+        width: 8rem;
+        height: 40px;
+        margin: 5rem 1rem 1.5rem 2rem ;
+
+       
+    }
+    .citi{
+        width: 7rem;
+        height: 80px;
+        margin: 4rem 0.5rem 1rem 1rem ;
+    }
+
+}
+@media screen and (min-width: 1024px) {
+    .colab-primary{
+        padding: 4rem;
+    }
+    .colab-primary h2{
+        text-align: center;
+    }
+    .kuepa{
+        width: 10rem;
+        height: 50px;
+        margin: 3rem 2rem 1.5rem 0.1rem ;
+    }
+    .citi{
+        width: 9rem;
+        height: 92px;
+        margin: 2rem 1rem 1rem 0.1rem ;
+    } 
+    .texto-d{
+        max-width: 700px;
+    }
+   
+}
