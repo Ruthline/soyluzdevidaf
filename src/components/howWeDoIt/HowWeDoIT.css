@@ -13,14 +13,10 @@
 }
 
 .text-how h1{
-    font-family: 'Cabin', sans-serif;
-    color: var(--dark-blue);
     padding-bottom:1.5rem ;
 }
 .text-how p{
-    font-size: 17px;
     text-align: center;
-    font-family: 'Red Hat Display', sans-serif;
 }
 .programs{
     padding: 1rem;
@@ -35,6 +31,10 @@
     font-family: 'Cabin', sans-serif;
     color: var(--dark-blue);
     text-shadow: 2px 2px 2px white;
+}
+.programs a{
+    text-decoration: none;
+    color: var(--dark-blue);
 }
 .program{
     width: 100%;

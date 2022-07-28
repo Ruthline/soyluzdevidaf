@@ -7,7 +7,7 @@
 .container-nt{
     margin: 3rem 1rem;
     background-color:rgba(55, 206, 198, 0.15);
-    max-width: 1100px;
+    max-width: 1150px;
 }
 .container-nt h1{
     font-family: 'Cabin', sans-serif;
@@ -17,11 +17,9 @@
 }
 .container-nt p{
     text-align: justify;
-    font-family: 'Red Hat Display', sans-serif;
     color: black;
     line-height: 26px;
     padding: 0rem 2.5rem 1rem 2.5rem;
-    font-size: 17px;
     text-shadow: 2px 2px 2px white;
 }
 .container-more{
@@ -29,7 +27,7 @@
     justify-content: end;
     align-items: center;
     height: 4rem;
-    padding-bottom: 1rem;
+    padding:1rem 0rem;
 }
 .more{
     width: 140px;
@@ -48,4 +46,15 @@
     font-size: 11px;
     text-shadow: 2px 2px 2px var(--black);
     letter-spacing: 2px;
+}
+@media screen and (min-width:1200px){
+    .box-nt h1{
+        padding:2rem 4rem 1.5rem 4rem;
+    }
+    .box-nt p{
+        padding:0.5rem 4rem 1.5rem 4rem;
+    }
+    .container-more{
+    padding-bottom: 2.5rem;
+    }
 }

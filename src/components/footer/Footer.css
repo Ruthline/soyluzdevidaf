@@ -24,7 +24,7 @@
     align-items: flex-start;
     color: white;
     line-height: 30px;
-    padding: 1rem;
+    padding: 1rem 0rem;
     font-family: 'Red Hat Display', sans-serif;
 }
 .rights h2{
@@ -46,6 +46,9 @@
 @media screen and (min-width:768px) {
     .footer{
         flex-direction: column-reverse;
+    }
+    .contactUs, .sources, .rights{
+        padding: 1rem;
     }
 }
 

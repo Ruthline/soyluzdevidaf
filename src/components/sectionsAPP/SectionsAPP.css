@@ -1,0 +1,35 @@
+.ppa-section{
+    margin: 1rem 0rem 3rem 0rem;
+}
+.attendance{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.attendance h1{
+    padding: 1rem 3rem;
+}
+.attendance p{
+    text-align: justify;
+    padding: 1rem 3rem;
+    max-width: 650px;
+}
+.attend-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+}
+.attend-img img{
+    width: 100%;
+}
+@media screen and (min-width:768px){
+    .attendance{
+        flex-direction:row ;
+    }
+    .attend-img img{
+        padding:0rem  2rem;
+    }
+}

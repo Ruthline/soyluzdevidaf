@@ -1,0 +1,44 @@
+.container-marks h1{
+    font-family: 'Cabin', sans-serif;
+    color: var(--dark-blue);
+    text-align: center;
+    margin: 2rem;
+}
+.marks{
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cont-imgs-s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin: 1rem;
+}
+.img-s{
+    width:90px;
+    height: 90px;
+}
+.img-st, .img-sf{
+    width: 100px;
+}
+
+@media screen and (min-width:768px) {
+    .cont-imgs-s{
+        width: 15%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .cont-imgs-s{
+        width: 14%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .cont-imgs-s{
+        width: 13%;
+    }
+}

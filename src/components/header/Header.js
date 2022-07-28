@@ -27,7 +27,7 @@ function Header() {
                         <div className="dropbtn item">Proyectos</div>
                         <div className="dropdown-content">
                             <div className='dropdown-box'>
-                            <Link to="/projects">Nuestro Trabajo</Link>
+                            <Link to="/workus">Nuestro Trabajo</Link>
                         <Link to="/projects">Prevención, Formación y asistencia</Link>
                             </div>
                         
