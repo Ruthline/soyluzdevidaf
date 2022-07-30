@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/soyluzdevidaf/static/css/main.7dc00ddb.css",
-    "main.js": "/soyluzdevidaf/static/js/main.ab8b68e7.js",
+    "main.css": "/soyluzdevidaf/static/css/main.49479444.css",
+    "main.js": "/soyluzdevidaf/static/js/main.422429e7.js",
     "static/media/asist.jpg": "/soyluzdevidaf/static/media/asist.c0f837846dd23bf7954f.jpg",
     "static/media/foto 1.png": "/soyluzdevidaf/static/media/foto 1.79779fbe604cedae9289.png",
     "static/media/promocion.jpg": "/soyluzdevidaf/static/media/promocion.8d5c60f200734b0b28c9.jpg",
     "static/media/prevencion.jpg": "/soyluzdevidaf/static/media/prevencion.de54cc776ce3855e1b89.jpg",
+    "static/media/imgmanos.png": "/soyluzdevidaf/static/media/imgmanos.e17db3ba840ee6d944a9.png",
     "static/media/galery1.jpeg": "/soyluzdevidaf/static/media/galery1.51f9c7cb23fb5f99226f.jpeg",
     "static/media/galery2.jpeg": "/soyluzdevidaf/static/media/galery2.4ee95c0ea0dc15ced1c3.jpeg",
     "static/media/galery5.jpeg": "/soyluzdevidaf/static/media/galery5.0626336fab82e506d190.jpeg",
@@ -25,11 +26,11 @@
     "static/media/left-arrow.svg": "/soyluzdevidaf/static/media/left-arrow.da21225bcf530088451874c9e21c215a.svg",
     "static/media/right-arrow.svg": "/soyluzdevidaf/static/media/right-arrow.d19ce8f87764b5901ed2ca6f0ff22d03.svg",
     "index.html": "/soyluzdevidaf/index.html",
-    "main.7dc00ddb.css.map": "/soyluzdevidaf/static/css/main.7dc00ddb.css.map",
-    "main.ab8b68e7.js.map": "/soyluzdevidaf/static/js/main.ab8b68e7.js.map"
+    "main.49479444.css.map": "/soyluzdevidaf/static/css/main.49479444.css.map",
+    "main.422429e7.js.map": "/soyluzdevidaf/static/js/main.422429e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dc00ddb.css",
-    "static/js/main.ab8b68e7.js"
+    "static/css/main.49479444.css",
+    "static/js/main.422429e7.js"
   ]
 }
