@@ -12,20 +12,18 @@
     "card-asis";
     margin: 1rem;
 }
-.titulo{
-    grid-area: titulo;
-    text-shadow: -1px 4px 4px rgba(243, 247, 248, 0.829);
-    padding: 20px;
-    display: flex;
-    margin-left: 100px;
+.card-p h1{
+    padding: 10px;
     text-align: center;
-    justify-content: center;
-    color: black;
-    padding: 1rem;
     font-family: 'Cabin', sans-serif;
-    background-color: rgba(121, 119, 119, 0.527);
+    background-color: rgba(155, 153, 153, 0.397);
     border-radius: 12px;
-    width: 15rem;
+    max-width: 300px;
+    max-height: 200px;
+    margin-left: 22%;
+}
+.titulo-donar{
+    grid-area: titulo;
 }
 .card-p h2{
     color: black;
@@ -35,10 +33,9 @@
     background-color: rgba(55, 206, 198, 0.63);
     text-shadow: 0px 4px 4px rgba(243, 247, 248, 0.829);
     border-radius: 10px;
-    width: 15rem;
-    margin-left: 50px;
-   
-
+    max-width: 300px;
+    max-height: 200px;
+    margin-left: 12%;
 }
 .card-p h3{
     color: rgb(43, 41, 41);    
@@ -50,6 +47,7 @@
     padding: 1rem;
 
 }
+
 .card-e{
     grid-area: card-e;
 }
@@ -70,6 +68,20 @@
 }
 
 @media screen and (min-width:768px) {
+    .card-p{
+        display: grid;
+        grid-template-areas: 
+        "titulo titulo titulo"
+        "card-e card-pyp card-asis";
+    }
+    .card-p h1{
+        margin-left: 30%;
+    }
+    .card-e, .card-pyp, .card-asis{
+        padding: 10px;
+        align-items: center;
+        margin-left: 5%;
+    }
     
 
 }
@@ -81,13 +93,11 @@
         "titulo titulo titulo"
         "card-e card-pyp card-asis";
     }
-
     .card-p h1{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
+        margin-left: 40%;
     }
+
+    
 
 }
 

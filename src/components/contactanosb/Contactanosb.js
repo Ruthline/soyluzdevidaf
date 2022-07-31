@@ -10,7 +10,7 @@ function Contactanosb() {
         <div className="contac-p">
             <h1>Contáctanos</h1>
             <div className="text-contac">
-                <p> Para nosotros es muy importante tu opinión por ello si alguno de los siguientes aportes deseas realizar como pregunta, queja, reclamo, sugerencia, felicitación o donación, disponemos estos canales de comunación o dando click en el botón de WhatsApp.</p>
+                <p> Su opinión es muy importante para nosotros! Para sugerencias, felicitaciones y quejas o peticiones enviar un mensaje por alguno de nuestros canales de comunación o dando click en el botón de WhatsApp.</p>
                 <button className='whats'><h4>WhatsApp  </h4> <a href='https://api.whatsapp.com/send?phone=+573193124627&text=Hola!%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre...'> <i><FontAwesomeIcon icon={faWhatsapp} /></i></a></button>
                 
             </div>
