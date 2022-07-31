@@ -13,6 +13,7 @@
     margin: 1rem;
 }
 .card-p h1{
+    color: black;
     padding: 10px;
     text-align: center;
     font-family: 'Cabin', sans-serif;
@@ -20,7 +21,8 @@
     border-radius: 12px;
     max-width: 300px;
     max-height: 200px;
-    margin-left: 22%;
+    /*margin-left: 22%;*/
+    margin: 0.5rem 2rem 0.5rem 6rem;
 }
 .titulo-donar{
     grid-area: titulo;
@@ -35,7 +37,7 @@
     border-radius: 10px;
     max-width: 300px;
     max-height: 200px;
-    margin-left: 12%;
+    margin-left: 10%;
 }
 .card-p h3{
     color: rgb(43, 41, 41);    

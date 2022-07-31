@@ -22,6 +22,8 @@
     padding: 20px;
     text-align: center;
     font-family: 'Cabin', sans-serif;
+    color: black;
+
 }
 .titulo-r{
     grid-area: titulo-r;

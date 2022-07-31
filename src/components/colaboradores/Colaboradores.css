@@ -34,6 +34,7 @@
 }
 
 .colab-primary h1{
+    color: black;
     text-align: center;
     font-family: 'Cabin', sans-serif;
 }
