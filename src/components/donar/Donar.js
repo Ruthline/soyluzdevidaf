@@ -4,7 +4,7 @@ import"../donar/Donar.css";
 function Donar() {
     return(
         <div className="card-p">
-            <h1 className="titulo"> ¿Cómo donar?</h1>
+            <h1 className="titulo-donar"> ¿Cómo donar?</h1>
             <div className="card-e">
                 <h2>Apoyo Económico</h2>    
                 <p><h3 className="titulo-s">Por favor sigue estos pasos:</h3><br/>
