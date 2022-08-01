@@ -1,0 +1,85 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.funda-primary{
+    display: grid;
+    grid-template-areas:
+    "titulo" 
+    "titulo-r"
+    "titulo-l"
+    "img-raf"
+    "img-lau"
+    "text-raf"
+    "text-lau";
+}
+.titulo{
+    grid-area:titulo;
+}
+.funda-primary h1{
+    padding: 20px;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    color: black;
+
+}
+.titulo-r{
+    grid-area: titulo-r;
+}
+.titulo-l{
+    grid-area: titulo-r;
+}
+.funda-primary h2{
+    text-shadow: -1px 1.2px 4px rgba(15, 195, 235, 0.829);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
+.enri{
+    height: 30%;
+    width: 30%;
+}
+
+.img-raf{
+    grid-area: img-raf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-raf{
+    grid-area: text-raf;
+}
+.lau{
+    height:30%;
+    width: 30%;
+}
+.img-lau{
+    grid-area: img-lau;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-lau{
+    grid-area: text-lau;
+}
+.funda-primary p{
+    padding: 35px;
+    text-align: justify;
+    font-family: 'Red Hat Display', sans-serif;
+}
+@media screen and (min-width:768px) {
+    .funda-primary{
+        padding: 3rem ;
+        display: grid;
+        grid-template-areas: 
+        "titulo titulo"
+        "titulo-r titulo-l"
+        "img-raf img-lau"
+        "text-raf text-lau";
+    }
+    .funda-primary h1{
+        margin: 2px 0px 1px 0px;
+    }
+}

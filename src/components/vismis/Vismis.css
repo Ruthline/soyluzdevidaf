@@ -1,0 +1,50 @@
+:root{
+    --dark-blue:rgb(64,68,95);
+    --light-blue:rgb(55, 206, 199);
+    --yellow:rgb(245, 218, 69);
+    --green:rgb(160,220,98);
+    --black:rgb(44,37, 37);
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-primary{
+    padding: 20px;
+    text-align: justify;
+    background-color:rgba(55, 222, 214, 0.278) ;
+}
+.text-mis h1{
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Cabin', sans-serif;
+}
+.text-vis h1{
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Cabin', sans-serif;
+}
+.text-primary p{
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 20px;
+    max-width: 900px; ;
+
+}
+@media screen and (min-width:768px) {
+     .text-primary{
+         padding: 3rem ;
+        }
+
+}
+@media screen and (min-width:1024px) {
+    .text-primary {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+
+}
