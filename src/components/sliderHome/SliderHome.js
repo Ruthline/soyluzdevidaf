@@ -47,12 +47,15 @@ export default function SliderHome() {
             <BtnSlider moveSlide={prevSlide} direction={"prev"}/>
 
             <div className="container-dots">
-                {Array.from({length: 5}).map((item, index) => (
+                {Array.from({length: 3}).map((item, index) => (
                     <div 
                     onClick={() => moveDot(index + 1)}
                     className={slideIndex === index + 1 ? "dot active" : "dot"}
                     ></div>
                 ))}
+                <div className='lema'>
+                    <h1>Ayudar te ayuda</h1>
+                </div>
             </div>
         </div>
     )
