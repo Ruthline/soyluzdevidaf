@@ -8,13 +8,13 @@ let projects=[
     {
         "id":"11",
         "titulo":"Promoción",
-        "description":"Fortalecer las diferentes habilidades que se enfocan en ciencia, tecnología, ingeniería, arte y matemática",
+        "description":"Promover instancias de educación, participación y liderazgo en donde las poblaciones se sientan identificadas de manera que contribuyan de forma propositiva en la sociedad",
         "imagen":"https://i.ibb.co/ws7bwX7/undraw-Appreciate-it-uj74.png"
     },
     {
         "id":"12",
         "titulo":"Prevención",
-        "description":"Fortalecer las diferentes habilidades que se enfocan en ciencia, tecnología, ingeniería, arte y matemática",
+        "description":"Involucrar a las poblaciones en los rangos de edad para que se mantengan al tanto de enfermedades, epidemias, educación sexual con el fin de ralentizar, disminuir los impactos que dichos temas han generado dentro de las comunidades",
         "imagen":"https://i.ibb.co/196cdCp/undraw-Positive-attitude-re-wu7d.png"
     }
 ]
